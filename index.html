@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ceci Artes - Produtos Digitais</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdeef4;
+      color: #71216d;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #f9d2e5;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #b44da5;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      text-align: center;
+    }
+    .produto {
+      background: white;
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .produto img {
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+    .produto button {
+      margin-top: 1rem;
+      background: #b44da5;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      border-radius: 1rem;
+      cursor: pointer;
+    }
+    .etapas, .pagamento, .depoimentos, .frases {
+      text-align: center;
+    }
+    .frases blockquote {
+      font-style: italic;
+      margin: 1rem auto;
+      max-width: 600px;
+    }
+    footer p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ceci Artes</h1>
+    <p>Artes Digitais Personalizadas com Amor</p>
+    <nav>
+      <a href="#produtos">Produtos</a>
+      <a href="#como-funciona">Como Funciona</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://via.placeholder.com/250x150" alt="Convite Digital" />
+        <h3>Convite Digital Floral</h3>
+        <p>R$ 24,90</p>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/250x150" alt="Cardápio" />
+        <h3>Cardápio Minimalista</h3>
+        <p>R$ 29,90</p>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/250x150" alt="Etiqueta" />
+        <h3>Etiqueta Escolar</h3>
+        <p>R$ 19,90</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona" class="etapas">
+    <h2>Como Funciona</h2>
+    <p>1. Escolha o modelo ideal</p>
+    <p>2. Faça o pagamento com segurança</p>
+    <p>3. Envie os dados para personalização</p>
+    <p>4. Receba no seu e-mail em até 48h 💌</p>
+  </section>
+
+  <section class="frases">
+    <h2>Frases que Inspiram</h2>
+    <blockquote>✨ “Seu evento começa no convite.”</blockquote>
+    <blockquote>💕 “Detalhes personalizados que encantam.”</blockquote>
+    <blockquote>🎀 “Feito com carinho, pensado pra você.”</blockquote>
+  </section>
+
+  <section class="pagamento">
+    <h2>Formas de Pagamento</h2>
+    <p>💳 Cartão de crédito (em até 3x)</p>
+    <p>💸 Pix (5% de desconto)</p>
+    <p>📄 Boleto bancário</p>
+    <p>🛡️ Pagamento 100% seguro com suporte via WhatsApp</p>
+  </section>
+
+  <section id="depoimentos" class="depoimentos">
+    <h2>O Que Dizem Nossas Clientes</h2>
+    <p>"Simplesmente encantada com meu convite! Ficou perfeito!" — Juliana M.</p>
+    <p>"Comprei etiquetas escolares e foram um sucesso com meus filhos!" — Ana P.</p>
+  </section>
+
+  <footer id="contato">
+    <p>Contato: <a href="https://wa.me/seunumerowhatsapp">WhatsApp</a> | <a href="https://instagram.com">Instagram</a></p>
+    <p>Política de Privacidade | Termos de Uso</p>
+    <p>Feito com 💖 por Ceci Artes</p>
+  </footer>
+</body>
+</html>
